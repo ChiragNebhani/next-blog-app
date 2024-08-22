@@ -3,7 +3,7 @@ import BlogTableItem from '@/Components/AdminComponents/BlogTableItem'
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 
-const page = () => {
+const Page = () => {
 
   const [blogs, setBlogs] = useState([]);
 
@@ -58,4 +58,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
